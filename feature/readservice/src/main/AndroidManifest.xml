@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application>
+        <service
+            android:name="com.hotspots.android.apps.clusterization.feature.readservice.presentation.ReadHotspotsService"
+            android:exported="false"
+            android:label="MyLabel"
+            android:process=":ReadHotspotsProcess" />
+    </application>
+</manifest>
